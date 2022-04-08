@@ -6,7 +6,6 @@
         public int Sequence { get; set; }
         public DateTime Created { get; set; }
 
-
         public Example Clone()
         {
             var obj = (Example)MemberwiseClone();
