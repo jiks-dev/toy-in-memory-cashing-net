@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B5A934F5-CF6B-4C58-BA22-D146DA1C8C98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashingNet.API", "src\CashingNet.API\CashingNet.API.csproj", "{58517089-0978-4655-AF96-324322A3C8C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashingNet.Domain", "src\CashingNet.Domain\CashingNet.Domain.csproj", "{97690F58-2888-4BC7-85C7-E993B4CC7E5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{505A21B4-C842-422A-9D74-46E36B534579}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashingNet.API.Tests", "test\CashingNet.API.Tests\CashingNet.API.Tests.csproj", "{5BC08E2C-E126-4B0E-AF0C-494F8028A46B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{52AB8CF5-CB35-4424-8897-E239DB87E85C}"
+	ProjectSection(SolutionItems) = preProject
+		docs\caching-memory.readme.md = docs\caching-memory.readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashingNet.Domain.Tests", "test\CashingNet.Domain.Tests\CashingNet.Domain.Tests.csproj", "{8CAD100C-C9DC-44ED-9980-DA7549F1772A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58517089-0978-4655-AF96-324322A3C8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58517089-0978-4655-AF96-324322A3C8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58517089-0978-4655-AF96-324322A3C8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58517089-0978-4655-AF96-324322A3C8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97690F58-2888-4BC7-85C7-E993B4CC7E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97690F58-2888-4BC7-85C7-E993B4CC7E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97690F58-2888-4BC7-85C7-E993B4CC7E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97690F58-2888-4BC7-85C7-E993B4CC7E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC08E2C-E126-4B0E-AF0C-494F8028A46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC08E2C-E126-4B0E-AF0C-494F8028A46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC08E2C-E126-4B0E-AF0C-494F8028A46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC08E2C-E126-4B0E-AF0C-494F8028A46B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CAD100C-C9DC-44ED-9980-DA7549F1772A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAD100C-C9DC-44ED-9980-DA7549F1772A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAD100C-C9DC-44ED-9980-DA7549F1772A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAD100C-C9DC-44ED-9980-DA7549F1772A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{58517089-0978-4655-AF96-324322A3C8C3} = {B5A934F5-CF6B-4C58-BA22-D146DA1C8C98}
+		{97690F58-2888-4BC7-85C7-E993B4CC7E5B} = {B5A934F5-CF6B-4C58-BA22-D146DA1C8C98}
+		{5BC08E2C-E126-4B0E-AF0C-494F8028A46B} = {505A21B4-C842-422A-9D74-46E36B534579}
+		{8CAD100C-C9DC-44ED-9980-DA7549F1772A} = {505A21B4-C842-422A-9D74-46E36B534579}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {821215F2-3819-4051-B528-E656B8EA6BCF}
+	EndGlobalSection
+EndGlobal
